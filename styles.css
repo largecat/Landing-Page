@@ -118,3 +118,62 @@ h2 {
     flex-direction: column;
     
 }
+
+.quote {
+    background-color: #E5E7EB;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+q {
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.quoteBox {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.quoteBox p{
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.bottom {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.actionBox {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 10px;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.actionBox button {
+    border: 2px solid white;
+}
+
+.boxLeft {
+    margin-right: 100px;
+}
+
+footer {
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
