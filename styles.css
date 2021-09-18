@@ -60,6 +60,12 @@ button {
     margin: 10px;
 }
 
+button:hover {
+    background-color: white;
+    color: #3882f6;
+    cursor: grabbing;
+}
+
 .imgbox {
     width: 50%;
     height: 200px;
@@ -92,6 +98,12 @@ h2 {
     height: 100px;
     border-radius: 10px;
     display: flex;
+}
+
+.box:hover {
+    background-image: url('https://images.unsplash.com/photo-1631873424136-5b7c419646d4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80');
+    background-size: contain;
+
 }
 
 .boxes {
